@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.hamburger-line{
+    @apply w-[30px] h-[2px] my-2 block bg-primarytext
+}
+
+.hamburger-active{
+
+}
+
+.navbar-fixed{
+    @apply fixed z-[9999] bg-bgsecondary bg-opacity-80 backdrop-blur-sm;
+}
+
